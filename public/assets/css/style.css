@@ -1,0 +1,31 @@
+.welcome-section {
+    height: 100vh;
+    background-color: white;
+    padding: 100px 0;
+    text-align: justify;
+    justify-content: center;
+}
+
+.welcome-section img {
+    max-width: 100%;
+}
+
+.welcome-text {
+    font-size: 36px;
+    color: skyblue;
+    margin-bottom: 20px;
+}
+
+.learn-more-btn {
+    font-size: 18px;
+    padding: 10px 20px;
+}
+
+.absen-section {
+    height: 100vh;
+}
+
+.data-absen-section {
+    height: 100vh;
+}
+

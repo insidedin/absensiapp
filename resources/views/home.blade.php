@@ -4,7 +4,7 @@
 
 @section('content')
     <section class="welcome-section">
-        <div class="container">
+        <div class="container mt-5">
             <div class="row">
                 <div class="col-md-6">
                     <h1>Selamat Datang di Aplikasi Digital Absensi</h1>
