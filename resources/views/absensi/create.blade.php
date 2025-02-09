@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Halaman Home')
+@section('title', 'Halaman Absensi')
 
 @section('content')
     <section class="absen-section">

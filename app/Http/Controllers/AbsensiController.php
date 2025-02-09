@@ -27,7 +27,7 @@ class AbsensiController extends Controller
 
         Absensi::create($request->all());
 
-        return redirect()->route('absensi.create')->with('success', 'Data Absesnsi Berhasil Disimpan.');
+        return redirect()->route('absensi.create')->with('success', 'Data Absensi Berhasil Disimpan.');
     }
 
     public function edit($id)

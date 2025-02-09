@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Halaman Home')
+@section('title', 'Halaman Data Absensi')
 
 @section('content')
 <section class="data-absen-section">
@@ -28,10 +28,10 @@
                             </a>
                         </td>
                         <td>
-                            <form action="" id="deleteForm-{{ $data->id }}" method="POST">
+                            <form id="deleteForm-{{ $data->id }}" action="{{ route('absensi.destroy', ['id' => $data->id]) }}" method="POST">
                                 @csrf
                                 @method('DELETE')
-                                <button type="button" class="btn btn-sm btn-danger" onclick="confirmDelete({{ $data->id }})">
+                                <button type="submit" class="btn btn-sm btn-danger">
                                     <b class="bi bi-trash"> Hapus</b>
                                 </button>
                             </form>
